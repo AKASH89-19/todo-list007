@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script src="/index.js"></script>
+<style>
+#aka  button {
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: blue;
+    color: white;
+}
+#aka button:hover {
+    background-color: #3a3131; 
+    color: white;
+    transform: scale(1.05);
+}
+.head{
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.head:hover
+{
+    background-color: #3a3131;
+}
+.main{
+margin-left: 70px;
+margin-top: 70px;
+}
+#aku div{
+    margin-left: 620px;
+}
+.imgg{
+    margin-left: 450px ;
+    margin-top: 50px;
+}
+.text
+{
+    margin-left: 400px  ;
+    margin-top: 50px  ;
+    background-color: blue;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+}
+.text:hover
+{
+    background-color: #007bff; /* Standard blue */
+  color: #FFFFFF; 
+}
+.child
+{
+    margin-left: 670px;
+}
+</style>
+</head>
+<body style="font-family: sans-serif;">
+    <div>
+    <h1 style="text-align: center;">  
+  <span class="head">
+  TO DO  LIST
+  </span>
+  </h1>    
+    </div>
+    <div class="imgg">
+     <img src="https://imgs.search.brave.com/XpLBsxPUKbPmUhlmwH4F3Cz5uYPoBQ7DHcGVGuzR5P0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTUv/NTEyLzM1OC9zbWFs/bC90by1kby1saXN0/LXRhc2stbWFuYWdl/bWVudC1vci1jb21w/bGV0aW9uLXRyYWNr/aW5nLW9yLXJlbWlu/ZGVyLXRvLWZpbmlz/aC1hc3NpZ25tZW50/LXdvcmstcGxhbm5p/bmctb3Itc2NoZWR1/bGUtY29uY2VwdC1w/cm9kdWN0aXZlLWJ1/c2luZXNzbWFuLXdp/dGgtcGVuY2lsLWFu/ZC10by1kby1saXN0/LWNsaXBib2FyZC13/aXRoLWFsYXJtLWNs/b2NrLXZlY3Rvci5q/cGc" alt="" >
+    </div>
+    <div style="display: flex;justify-content: flex-start;">
+        <h4 class="text">
+          Add your todos here <span style="font-size: xx-large; padding-left: 10px;margin-top: 50px;">👉</span>
+        </h4>
+     <div class="main">
+ <input  id="todo"  type="text" placeholder="addtodo..."/>
+ <button onclick="aka()" 
+ > add todo</button>
+ </div>
+ </div>
+ <div id="aka" class="child">
+ </div>
+</html>
